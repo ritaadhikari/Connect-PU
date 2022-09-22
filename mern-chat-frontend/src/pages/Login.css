@@ -1,0 +1,8 @@
+.login__bg {
+    background-image: url(C:\Users\LENOVO\Desktop\project\mern-chat-frontend\public\two.webp);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}

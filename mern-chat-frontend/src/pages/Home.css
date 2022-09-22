@@ -1,0 +1,21 @@
+.home__bg {
+    background-image: url(C:\Users\LENOVO\Desktop\project\mern-chat-frontend\public\rita.jpg);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-color: indigo;
+}
+
+.home-message-icon {
+    margin-left: 10px;
+    display: inline-block;
+    background-color: plum;
+}
+.bg-light{
+    background-color: violet;
+}
+.navbar{
+    background-color: bisque;
+}
