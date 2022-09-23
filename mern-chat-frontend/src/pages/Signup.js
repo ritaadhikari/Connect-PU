@@ -51,7 +51,6 @@ function Signup() {
         e.preventDefault();
         if (!image) return alert("Please upload your profile picture");
         const url = await uploadImage(image);
-        console.log(url);
         // signup the user
         const reg = /@pu.edu.np\s*$/
         const isValid = reg.test(email);
@@ -61,7 +60,6 @@ function Signup() {
         };
         signupUser({ name, program, semester, email, password, picture: url }).then(({ data }) => {
             if (data) {
-                console.log(data);
                 navigate("/chat");
             }
         });

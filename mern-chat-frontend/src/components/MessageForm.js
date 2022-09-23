@@ -49,7 +49,6 @@ function MessageForm() {
         socket.emit("message-room", roomId, message, user, time, todayDate);
         setMessage("");
     }
-    console.log(privateMemberMsg.picture);
     return (
         <>
             <div className="messages-output">

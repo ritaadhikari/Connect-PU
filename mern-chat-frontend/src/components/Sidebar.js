@@ -79,7 +79,6 @@ function Sidebar() {
                 <ListGroup.Item key={member.id} style={{ cursor: "pointer" }} active={privateMemberMsg?._id == member?._id} onClick={() => handlePrivateMemberMsg(member)} disabled={member._id === user._id}>
                     <Row>
                         <Col xs={2} className="member-status">
-                            {/* {console.log({pic: member.picture})} */}
                             <img src={process.env.REACT_APP_API_URL+"/"+member.picture} className="member-status-img" />
                             {member.status == "online" ? <i className="fas fa-circle sidebar-online-status"></i> : <i className="fas fa-circle sidebar-offline-status"></i>}
                         </Col>
